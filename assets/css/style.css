@@ -22,3 +22,35 @@ h1, h2 {
     float: left;
     font-size: 350%;
 }
+
+#menu {
+    color:black;
+    font-size: 140%;
+}
+
+#menu, #logo {
+    line-height: 75px;
+
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    font-family: Open Sans, sans-serif;
+    list-style: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: solid 1px;
+    border-color: red;
+}
+
+.active {
+    border-bottom: solid 1px;
+    border-color: red;
+}
