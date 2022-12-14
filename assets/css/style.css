@@ -54,3 +54,11 @@ h1, h2 {
     border-bottom: solid 1px;
     border-color: red;
 }
+
+html { 
+    background: url(../images/Landingimage1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
