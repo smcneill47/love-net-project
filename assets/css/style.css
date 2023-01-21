@@ -21,6 +21,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 350%;
+    margin-left: 15px;
 }
 
 #menu {
@@ -84,4 +85,16 @@ h1, h2 {
     margin: 0 auto;
 
 }
+
+.community-style {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color: black;
+        padding-left: 25px;
+        color: white;
+}
+
   
