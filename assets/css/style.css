@@ -9,13 +9,13 @@
 body {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
-    color: blueviolet;
+    color: black;
 }
 
 h1, h2 {
     font-family: Lobster, sans-serif;
     font-weight: 400;
-    color: red;
+    color: black;
 }
 
 #logo {
@@ -47,18 +47,40 @@ h1, h2 {
 
 #menu a:hover {
     border-bottom: solid 1px;
-    border-color: red;
+    border-color: grey;
 }
 
 .active {
     border-bottom: solid 1px;
-    border-color: red;
+    border-color: grey;
 }
 
-html { 
-    background: url(../images/Landingimage1.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+#cover-text, #cover-text h2 {
+    color: white;
+    text-align: center;
+}
+
+#main-image {
+    height: 800px;
+    width: 100%;
+    background: url('../images/shutterstock_377884705.jpg') no-repeat center center;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text {
+    font-size: 200%;
+    font-family: Open-sans, sans-serif;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, .5);
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 400px;
+    right: 675px;
+    top: 250px;
+    position: absolute;
+    border-radius: 50%;
+
+}
+  
