@@ -109,15 +109,30 @@ ul {
 }
 
 #secondary-image {
-    height: 800px;
+    height: 400px;
     width: 100%;
     background: url('../images/shutterstock_372378982\ use.jpg') no-repeat center;
     overflow: hidden;
+    position: relative;}
+
+#secondary-image > div {
+    font-size: 200%;
+    float: left;
+    height: 200px;
+    width: 33%;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid white;
+    position: relative;
+    top: 100px;
+    bottom: 400px;
 }
 
-#coffee-text {
-    font-size: 200%;
+#coffee-head {
+    font-size: 300%;
+    color: white;
     font-family: Lobster, open-sans;
     text-align: center;
-    color: white;
 }
