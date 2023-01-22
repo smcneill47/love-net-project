@@ -107,4 +107,17 @@ ul {
     padding: 0;
     margin: 0;
 }
-  
+
+#secondary-image {
+    height: 800px;
+    width: 100%;
+    background: url('../images/shutterstock_372378982\ use.jpg') no-repeat center;
+    overflow: hidden;
+}
+
+#coffee-text {
+    font-size: 200%;
+    font-family: Lobster, open-sans;
+    text-align: center;
+    color: white;
+}
