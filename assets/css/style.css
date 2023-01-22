@@ -72,22 +72,19 @@ h3 {
     background: url('../images/shutterstock_377884705.jpg') no-repeat center center;
     overflow: hidden;
     position: relative;
+    flex: content;
+    align-items: center;
 }
 
 #cover-text {
     font-size: 200%;
     font-family: Open-sans, sans-serif;
-    width: 600px;
-    height: 300px;
-    background-color: rgba(0, 0, 0, .5);
-    padding-top: 40px;
-    padding-left: 10px;
-    bottom: 400px;
-    right: 675px;
-    top: 250px;
     position: absolute;
-    border-radius: 50%;
-    margin: 0 auto;
+    top: 45%;
+    left: 8%;
+    width: 600x;
+    height: 400px;
+    display: inline-block;
 
 }
 
@@ -169,6 +166,3 @@ footer{
     object-fit: cover;
 }
 
-@media screen and (max-width: 1200px) {
-    
-}
