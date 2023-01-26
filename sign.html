@@ -9,11 +9,12 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <script src="https://kit.fontawesome.com/98a0c72eac.js" crossorigin="anonymous"></script>
+
 
     <title>Love .Net</title>
 </head>
 <body>
-
     <header>
         <a href="index.html">
             <h1 id="logo">Love .Net</h1>
@@ -32,33 +33,36 @@
             </ul>
         </nav>
     </header>
+    <br>
 
     <section class="form-section">
-        <form action="https://formdump.codeinstitute.net/" method="post">
-            <h2>Sign Up to Our Events Newsletter</h2>
+        <form class="form-style" action="https://formdump.codeinstitute.net/" method="post">
+            <h2>Sign Up to Our Events Newsletter <i class="fa-solid fa-user-plus"></i></h2>
 
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name" value="text" required>
+            <input type="text" id="fname" name="first_name" placeholder="eg. Sean" class="text-input" required>
 
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name" value="text" required>
+            <input type="text" id="lname" name="last_name" placeholder="eg. McNeill" class="text-input" required>
 
             <label for="email">Email</label>
-            <input type="email" id="email" name="email_address" value="text" required>
+            <input type="email" id="email" name="email_address" placeholder="eg. seanmcneill@hotmail.com" class="text-input" required>
 
-            <h3>What brought you to Love .Net</h3>
+            <input class="join-button" type="submit" value="Sign Up!">
+
+            <h2>What brought you to Love .Net</h2>
 
             <label for="social">Social</label>
-            <input type="radio" id="social" name="reason_social" value="social">
+            <input type="checkbox" id="social" name="reason_social" value="social">
 
             <label for="technology">Technology</label>
-            <input type="radio" id="technology" name="reason_technology" value="technology">
+            <input type="checkbox" id="technology" name="reason_technology" value="technology">
 
             <label for="education">Education</label>
-            <input type="radio" id="education" name="reason_education" value="education">
+            <input type="checkbox" id="education" name="reason_education" value="education">
 
             <label for="community">Community</label>
-            <input type="radio" id="community" name="reason_community" value="community">
+            <input type="checkbox" id="community" name="reason_community" value="community">
         </form>
     </section>
 
@@ -80,7 +84,6 @@
         </ul> 
     </footer>
 
-    <script src="https://kit.fontawesome.com/98a0c72eac.js" crossorigin="anonymous"></script>
     
 </body>
 </html>
