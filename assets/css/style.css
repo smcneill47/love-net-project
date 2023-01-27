@@ -115,7 +115,7 @@ ul {
     overflow: hidden;
     position: relative;}
 
-#secondary-image > div {
+.secondary-text {
     font-size: 200%;
     float: left;
     height: 200px;
@@ -190,7 +190,7 @@ footer{
     padding: 30px 30px 30px 30px;
     display: inline-block;
     left: 15px;
-    bottom: 15px;
+    bottom: 100px;
 }
 
 .form-style h2 {
@@ -227,4 +227,59 @@ footer{
 ::placeholder {
     color: white;
     font-size: 15px;
+}
+
+@media only screen and (max-width:1200px) {
+    .secondary-text {
+        font-size: 120%;
+        height: 120px;
+        width: 30%;
+        float: left;
+        display: inline-block;
+        left: 25px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .secondary-text {
+        height: 170px;
+        left: 15px;
+    }
+
+    #menu {
+        float: none;
+        display: inline-block;
+    }
+
+    .community-style {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 10px;
+    }
+
+    #cover-text {
+        height: 300px;
+        width: 300px;
+        font-size: 150%;
+        top: 250px;
+        bottom: 200px;
+    }
+
+    .form-style {
+        width: 300px;
+        font-size: 90%;
+        height: 600px;
+        top: 100px;
+    }
+
+    .form-style h2 {
+        font-size: 110%;
+    }
+
+    .checkbox-style {
+       display: block;
+    }
+
 }
