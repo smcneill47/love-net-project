@@ -282,4 +282,8 @@ footer{
        display: block;
     }
 
+    footer {
+        font-size: 90%;
+    }
+
 }
