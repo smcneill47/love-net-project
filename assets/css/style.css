@@ -84,8 +84,8 @@ h3 {
     font-family: Open-sans, sans-serif;
     position: absolute;
     top: 45%;
-    left: 8%;
-    width: 600x;
+    left: 32%;
+    width: 600px;
     height: 400px;
     display: inline-block;
 
@@ -240,7 +240,7 @@ footer{
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
 
     .secondary-text {
         height: 170px;
@@ -261,10 +261,11 @@ footer{
 
     #cover-text {
         height: 300px;
-        width: 300px;
+        width: 200px;
         font-size: 150%;
         top: 250px;
-        bottom: 200px;
+        bottom: 220px;
+        text-align: horiszontal;
     }
 
     .form-style {
